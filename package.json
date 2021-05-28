@@ -1,13 +1,13 @@
 {
-  "name": "pancakeswap-test",
+  "name": "pancakeswap-pair",
   "license": "UNLICENSED",
   "scripts": {
     "codegen": "graph codegen",
     "build": "graph build",
-    "deploy": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ boka44/pancakeswap-test",
-    "create-local": "graph create --node http://localhost:8020/ boka44/pancakeswap-test",
-    "remove-local": "graph remove --node http://localhost:8020/ boka44/pancakeswap-test",
-    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 boka44/pancakeswap-test"
+    "deploy": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ boka44/pancakeswap-pair",
+    "create-local": "graph create --node http://localhost:8020/ boka44/pancakeswap-pair",
+    "remove-local": "graph remove --node http://localhost:8020/ boka44/pancakeswap-pair",
+    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 boka44/pancakeswap-pair"
   },
   "dependencies": {
     "@graphprotocol/graph-cli": "0.20.0",

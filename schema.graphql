@@ -1,6 +1,10 @@
-type ExampleEntity @entity {
+
+type SwapEntity @entity {
   id: ID!
-  count: BigInt!
-  owner: Bytes! # address
-  spender: Bytes! # address
+  sender: Bytes
+  amount0In: BigInt
+  amount0Out: BigInt
+  amount1In: BigInt
+  amount1Out: BigInt
+  to: Bytes
 }
